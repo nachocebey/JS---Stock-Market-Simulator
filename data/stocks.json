@@ -1,0 +1,88 @@
+{
+  "stocks": [
+    {
+      "symbol": "AAPL",
+      "name": "Apple Inc.",
+      "sector": "Technology",
+      "price": 175.5,
+      "previousPrice": 173.2
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft Corporation",
+      "sector": "Technology",
+      "price": 378.85,
+      "previousPrice": 375.5
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet Inc.",
+      "sector": "Technology",
+      "price": 142.65,
+      "previousPrice": 143.8
+    },
+    {
+      "symbol": "AMZN",
+      "name": "Amazon.com Inc.",
+      "sector": "Consumer Cyclical",
+      "price": 178.3,
+      "previousPrice": 176.9
+    },
+    {
+      "symbol": "TSLA",
+      "name": "Tesla Inc.",
+      "sector": "Automotive",
+      "price": 245.6,
+      "previousPrice": 250.2
+    },
+    {
+      "symbol": "JPM",
+      "name": "JPMorgan Chase & Co.",
+      "sector": "Financial",
+      "price": 158.4,
+      "previousPrice": 157.8
+    },
+    {
+      "symbol": "JNJ",
+      "name": "Johnson & Johnson",
+      "sector": "Healthcare",
+      "price": 162.3,
+      "previousPrice": 163.1
+    },
+    {
+      "symbol": "WMT",
+      "name": "Walmart Inc.",
+      "sector": "Consumer Defensive",
+      "price": 169.75,
+      "previousPrice": 168.9
+    },
+    {
+      "symbol": "PG",
+      "name": "Procter & Gamble Co.",
+      "sector": "Consumer Defensive",
+      "price": 157.2,
+      "previousPrice": 156.8
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
+      "sector": "Technology",
+      "price": 485.5,
+      "previousPrice": 475.3
+    },
+    {
+      "symbol": "DIS",
+      "name": "The Walt Disney Company",
+      "sector": "Communication Services",
+      "price": 91.4,
+      "previousPrice": 92.1
+    },
+    {
+      "symbol": "NKE",
+      "name": "Nike Inc.",
+      "sector": "Consumer Cyclical",
+      "price": 128.2,
+      "previousPrice": 129.5
+    }
+  ]
+}

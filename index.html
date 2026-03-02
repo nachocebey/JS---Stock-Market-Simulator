@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock Simulator</title>
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/latest/normalize.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Stock Simulator</h1>
+    </header>
+    <main>
+      <div class="container">
+        <section class="portfolio-section" id="portfolio-section">
+        </section>
+        <section class="market-section" id="market-section">
+          <div id="market"></div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2026 Stock Simulator. All rights reserved.</p>
+    </footer>
+    <div id="modal" class="modal" style="display: none">
+      <div class="modal-content">
+        <h3>Comprar/Vender <span id="modal-symbol"></span></h3>
+        <p>Precio actual: <span id="modal-price"></span></p>
+        <p>Disponible: <span id="modal-cash"></span></p>
+        <p>Tienes: <span id="modal-holdings"></span></p>
+        
+        <p id="modal-insufficient-funds" style="display: none; color: red;">Fondos insuficientes</p>
+        <label>Cantidad:</label>
+        <input type="number" id="modal-quantity" min="1" value="1" />
+
+        <button id="modal-buy">Comprar</button>
+        <button id="modal-sell">Vender</button>
+        <button id="modal-close">Cerrar</button>
+      </div>
+    </div>
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>
